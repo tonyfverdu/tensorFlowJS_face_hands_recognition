@@ -1,0 +1,184 @@
+$heigthAuto: auto;
+$top: calc($heigthAuto + 30rem);
+
+$backgroundColorIniT: rgba(231, 230, 230, 0.6);
+$backgroundColorIniT3: rgba(231, 230, 230, 0.3);
+$backgroundColorIniT2: rgba(231, 230, 230, 0.6);
+$backgroundColorIniWhite: rgb(253, 253, 253);
+$backgroundColorIniWhiteT: rgba(242, 242, 242, 0.6);
+$backgroundColorIniWhiteT3: rgba(242, 242, 242, 0.3);
+$backgroundColorIni: rgb(231, 230, 230);
+$backgroundColorIni2: rgb(205, 204, 204);
+$backgroundColorHellGray: rgb(167, 166, 166);
+$backgroundColorHellGrayT: rgba(167, 166, 166, 0.6);
+$backgroundColorHellGrayT3: rgba(167, 166, 166, 0.3);
+$backgroundColorHellGray2: rgb(140, 140, 140);
+$backgroundColorDunkelGray: rgb(66, 66, 71);
+$backgroundColorDunkelGray2: rgb(92, 92, 95);
+$backgroundColorDunkelGray3: rgba(23, 23, 24, 0.85);
+$backgroundColorDunkelGray4: rgb(63, 63, 63);
+$backgroundColorDunkelGray4T: rgb(63, 63, 63, 0.6);
+$backgroundColorDunkelGray5: rgb(39, 39, 39);
+$backgroundColorDunkelGray6: rgb(19, 19, 29);
+$backgroundColorDunkelBlack: rgba(3, 3, 3, 0.93);
+$backgroundColorDunkelBlack2: rgba(41, 41, 41, 0.93);
+$backgroundColorDunkelBlackT: rgba(3, 3, 3, 0.2);
+$backgroundColorDunkelBlackT2: rgba(3, 3, 3, 0.6);
+$backgroundColorBlack: black;
+$backgroundColorBlack1: rgb(13, 13, 13);
+$backgroundColorBlack2: rgb(27, 27, 27);
+$backgroundColorBlack3: rgb(37, 37, 37);
+
+$backgroundColorRowTable: rgba(145, 169, 249, 0.5);
+
+$colorBorderDunkelTrek: rgba(20, 21, 53, 0.5);
+
+$colorTextIni: rgb(9, 9, 9);
+$colorDunkel: rgb(10, 10, 10);
+$colorDunkelSecondary: rgba(4, 32, 52, 0.9);
+$colorHellTransparent: rgba(246, 240, 240, 0.25);
+$colorHellTransparent2: rgba(246, 240, 240, 0.4);
+$colorHell: rgb(246, 240, 240);
+$Colorhell2: #e0e0e0;
+$colorGrayHell: rgb(162, 162, 85);
+$colorAccordionHover: rgb(252, 238, 213);
+$colorRedNeuT: rgba(249, 19, 19, 0.4);
+$colorRedHellT2: rgba(247, 5, 5, 0.3);
+$colorRedNeu: rgb(250, 29, 29);
+$colorRedNew: rgb(220, 21, 21);
+$colorRedNeu3: rgba(250, 29, 29, 0.3);
+$colorRedTrans: rgba(98, 8, 8, 0.65);
+$colorRedNeuDunkel1: rgb(52, 1, 1);
+$colorRedNeuDunkel2: rgb(107, 2, 2);
+$colorRedNeuDunkel3: rgb(162, 3, 3);
+$colorRedNeu2: rgb(56, 1, 1);
+$colorbackgroudneuOrange: rgb(213, 140, 4);
+$colorDunkelGreen: rgb(1, 66, 1);
+$colorDunkelGreenT: rgba(2, 165, 2, 0.1);
+$colorGreen: rgba(2, 110, 2, 0.9);
+
+$colorGreenHell2: rgba(43, 211, 43, 0.9);
+$colorGreenHell: rgba(54, 250, 54, 0.9);
+$colorGreenHellT2: rgba(5, 247, 5, 0.3);
+$colorGreenHellT3: rgba(131, 251, 131, 0.3);
+$colorGreenHellT: rgba(54, 250, 54, 0.4);
+
+$colorYellow: rgba(188, 188, 3, 0.9);
+$colorRed: rgba(207, 35, 35, 0.9);
+$colorNavy: rgba(2, 2, 101, 0.9);
+$colorPink: rgba(250, 160, 175, 0.9);
+$colorOrange: orange;
+$colorOrange: rgba(255, 204, 1, 0.9);
+$colorOrange1: rgba(251, 182, 53, 0.7);
+$colorOrange2: rgba(253, 204, 114, 0.7);
+$colorHellOrange3: rgba(251, 233, 200, 0.7);
+$colorHellOrange4: rgba(191, 125, 4, 0.7);
+$colorBrown: rgb(78, 15, 15);
+$colorBrownTransparent: rgb(134, 23, 23, 0.4);
+
+$colorHell0: rgb(246, 240, 240);
+$colorHell1: rgb(228, 227, 227);
+$colorHell2: rgb(252, 248, 2);
+$colorHell3: rgb(252, 249, 112);
+$colorHell4: rgb(103, 255, 2);
+$colorHell5: rgb(159, 250, 98);
+$colorHell6: rgb(4, 243, 252);
+$colorHell7: rgb(100, 250, 255);
+$colorHell8: rgb(248, 164, 8);
+$colorHell9: rgb(252, 218, 156);
+
+$colorDunkel0: rgb(24, 2, 2);
+$colorGreenDunkel: rgb(10, 66, 5);
+$colorDunkel4: rgb(46, 92, 15);
+$colorDunkel5: rgb(8, 77, 73);
+$colorDunkel6: rgb(11, 10, 73);
+$colorDunkel7: rgb(59, 9, 59);
+$colorDunkel8: rgb(63, 43, 7);
+$colorDunkel9: rgb(46, 5, 5);
+
+$colorDarkBlueNavy: rgb(1, 1, 68);
+$colorDarkBlue1: rgb(1, 14, 131);
+$colorDarkBlue2: rgb(5, 29, 253);
+$colorDarkBlue3: rgb(5, 84, 253);
+$colorDarkBlue4: rgb(62, 122, 250);
+
+$colorHellBlue1: rgb(2, 136, 136);
+$colorHellBlue2: cyan;
+$colorHellBlue3: rgb(143, 253, 253);
+$colorHellBlue4: rgb(204, 250, 250);
+
+$gradientSlice: linear-gradient(to bottom, $backgroundColorHellGray 55%, $backgroundColorIni);
+$gradientSlice2: linear-gradient(to top, $backgroundColorHellGray 8%, $backgroundColorIniT 22%, $backgroundColorIniT2 50%, $backgroundColorIniT3);
+$gradientSlice3: linear-gradient(to top, $colorDarkBlue1 3%, $colorDarkBlue2 10%, $colorDarkBlue3 18%, $colorDarkBlue4);
+$gradientSliceBluedark: linear-gradient(to top, rgb(15, 15, 228) 3%, rgb(3, 3, 204) 10%, rgb(1, 1, 151) 20%, rgb(1, 1, 63) 30%, rgb(0, 0, 0));
+$gradientSliceGreendark: linear-gradient(to top, rgb(15, 228, 58) 3%, rgb(3, 204, 23) 10%, rgb(1, 151, 31) 21%, rgb(1, 63, 22) 39%, rgb(0, 60, 12)78%, rgb(1, 45, 10));
+$gradientSliceRedDark: linear-gradient(to top, rgb(228, 15, 15) 3%, rgb(204, 3, 3) 10%, rgb(151, 1, 1) 21%, rgb(63, 1, 1) 39%, rgb(60, 0, 0)78%, rgb(45, 1, 1));
+$gradientSliceDark: linear-gradient(to bottom, $backgroundColorDunkelGray 3%, $backgroundColorDunkelGray2 10%, $backgroundColorDunkelGray3 20%, $backgroundColorDunkelGray4 30%, $backgroundColorDunkelBlack );
+$gradientSliceBluedark2: linear-gradient(to bottom, rgb(161, 245, 253) 3%, rgb(127, 192, 198) 10%, rgb(58, 133, 143) 20%, rgb(46, 89, 94) 30%, rgb(176, 248, 251));
+$gradientSliceDark: linear-gradient(to bottom, $backgroundColorDunkelGray 3%, $backgroundColorDunkelGray2 10%, $backgroundColorDunkelGray3 20%, $backgroundColorDunkelGray4 30%, $backgroundColorDunkelBlack );
+$gradientSlicePinkdark2: linear-gradient(to bottom, rgb(253, 161, 253) 3%, rgb(198, 127, 196) 10%, rgb(143, 58, 143) 20%, rgb(94, 46, 88) 30%, rgb(251, 176, 248));
+$gradientSliceDark: linear-gradient(to bottom, $backgroundColorDunkelGray 3%, $backgroundColorDunkelGray2 10%, $backgroundColorDunkelGray3 20%, $backgroundColorDunkelGray4 30%, $backgroundColorDunkelBlack );
+$gradientSliceDark2: linear-gradient(to top, black 8%, $backgroundColorDunkelGray2 18%, $backgroundColorDunkelGray3 26%, $backgroundColorDunkelGray4 32%, $backgroundColorBlack3 38%, $backgroundColorDunkelBlack);
+$gradientSliceDark3: linear-gradient(to bottom, black 17%, $backgroundColorBlack1 17%, $backgroundColorBlack2 19%, $backgroundColorBlack3 21%, $backgroundColorBlack3 23%, $backgroundColorBlack2 25%,
+        $backgroundColorBlack1 26% $backgroundColorDunkelBlack 29%, black 29%);
+
+$backgroundColorTableLineaDunkel: rgba(4, 6, 36, 0.707);
+$backgroundColorTableLineaHell: rgba(130, 136, 230, 0.707);
+$backgroundColorTableLineaDunkel: rgba(50, 53, 87, 0.707);
+$colorbackgroudFacebook: #3b5998;
+$colorbackgroudTwitter: #55acee;
+$colorbackgroudGoogle: #dd4b39;
+$colorbackgroudInstagramHell: #fa6ffa;
+$colorbackgroudInstagram: #ac2bac;
+$colorbackgroudLinkedin: #0082ca;
+$colorbackgroudGithub: #333333;
+$colorbackgroudMy: rgb(227, 154, 19);
+
+$backgroundColorRowTable: rgba(202, 202, 220, 0.7);
+
+$colorHellCardGlass: rgba(146, 153, 176, 0.4);
+$colorHellCardGlassBorder: rgb(224, 224, 236);
+
+$textShadowTitleHeader1Hoover: -0.6rem -0.4rem 0.28rem rgb(101, 101, 102);
+/////////////////////////////////////////
+$backgroundColorDunkelNavbar: rgb(15, 15, 15);
+$backgroundColorDunkelTrek: #010134ef;
+$backgroundColorHellTrek: rgba(32, 42, 75, 0.947);
+
+////  SHADOW    /////////////////////////////
+$textShadow0: -2px -2px 1px rgba(0, 0, 0, 0.39), 2px 2px 5px #5d5d63;
+$textShadow1: -4px -3px 4px rgba(0, 0, 0, 0.39), 2px 3px 4px rgba(0, 0, 0, 0.3);
+$textShadowGreen: -4px -3px 4px rgba(39, 253, 39, 0.3), 2px 3px 4px rgba(39, 246, 39, 0.3);
+$textShadowRed: -4px -3px 4px rgba(253, 39, 39, 0.3), 2px 3px 4px rgba(246, 39, 39, 0.3);
+$textShadow2: -9px -4px 4px rgba(0, 0, 0, 0.39), 0 10px 8px rgba(0, 0, 0, 0.3);
+$textShadow3: -1px -1px 0px rgba(0, 0, 0, 0.39), 1px 1px 3px #5d5d63;
+$textShadow5: -4px -3px 4px rgba(255, 253, 253, 0.39), 2px 3px 4px rgba(255, 255, 255, 0.3);
+
+$boxShadow2: 0px 1px 2px 1px #1000c3;
+$boxShadow3: 1px 1px 2px 0px #f5f4f8, inset 5px 5px 8px 0px #4c4c4c, 1px 1px 2px 2px #f5f4f8;
+$boxShadow4: 1px 1px 1px 0px #c3c3c3, inset 6px 6px 10px 0px #222222, 1px 1px 1px 1px #c3c3c3;
+$boxShadow5: 0px 0px 3px 2px #5d5d63, inset 6px 6px 12px 0px #222222, 0px 0px 3px 2px #5d5d63;
+$boxShadow6: 6px 8px 12px 2px #fafab0, inset 7px 7px 18px 3px #fb8303, 6px 6px 9px 9px #f0c999;
+$boxShadow6: 6px 8px 12px 2px rgba(98, 98, 98, 0.8), inset 7px 7px 18px 3px rgba(67, 67, 67, 0.8), 6px 6px 9px 9px rgba(38, 38, 38, 0.8);
+$boxShadow7: 0px 1px 2px 2px #950202, inset 7px 8px 15px 3px #fb1803, 0px 1px 3px 3px #feb699;
+$boxShadow8: 0px 1px 2px 2px #ff9898, inset 6px 6px 12px 0px #fb1803, 0px 1px 3px 3px #feb699;
+$boxShadow8Dark: 0px 1px 2px 2px #ff5757, inset 2px 2px 6px 0px #a80202, 0px 1px 2px 2px #fb3c3c;
+$boxShadow9: 0px 1px 2px 2px rgb(184, 255, 134), inset 6px 6px 12px 0px #03fb03, 0px 1px 3px 3px #99f0b6;
+$boxShadow9Dark: 0px 1px 2px 2px rgb(86, 205, 2), inset 6px 6px 12px 0px #03fb03, 0px 1px 3px 3px #99f0b6;
+$boxShadow10: 6px 8px 12px 2px rgba(167, 253, 105, 0.8), inset 7px 7px 18px 3px #018209eb, 6px 6px 12px 9px #053500;
+$boxShadow11: 6px 8px 12px 2px rgba(251, 123, 123, 0.8), inset 7px 7px 18px 3px #f42411, 6px 6px 12px 9px #750202;
+$boxShadow12: 2px 2px 5px 2px rgb(184, 255, 134), inset 7px 7px 18px 3px #03fb03, 2px 3px 6px 2px #99f0b6;
+$boxShadow13: 4px 5px 7px 2px rgba(167, 253, 105, 0.8), inset 4px 5px 7px 3px #08f518eb, 4px 5px 7px 4px #0a6802;
+$boxShadow14: 4px 5px 7px 2px rgba(251, 123, 123, 0.8), inset 4px 5px 7px 3px #f42411, 4px 5px 7px 4px #750202;
+
+
+$backgroundGradienteDark: linear-gradient(135deg, #4c4c4c 0%, #595959 11%, #666666 20%, #666666 28%, #474747 36%, #2c2c2c 43%, #2c2c2c 44%, #2c2c2c 47%, #2c2c2c 49%, #000000 52%, #2c2c2c 55%, #000000 60%, #000000 60%, #000000 64%, #111111 72%, #2b2b2b 81%, #1c1c1c 89%, #131313 100%);
+;
+
+@mixin gradienteDark1 {
+    background: linear-gradient(135deg, #4c4c4c 0%, #595959 11%, #666666 20%, #666666 28%, #474747 36%, #2c2c2c 43%, #2c2c2c 44%, #2c2c2c 47%, #2c2c2c 49%, #000000 52%, #2c2c2c 55%, #000000 60%, #000000 60%, #000000 64%, #111111 72%, #2b2b2b 81%, #1c1c1c 89%, #131313 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+
+}

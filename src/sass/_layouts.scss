@@ -1,0 +1,64 @@
+@use './myvariables.scss' as v;
+
+//  MIXINS GENERALL.  Mixins of Format Layouts   ******************
+//  1.- Layout Inline *************************************************
+@mixin layoutInlineGenerall($float, $width) {
+    position: relative;
+    display: flex;
+    float:  $float;
+    width:  $width
+}
+@mixin layoutInline {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+//  2.- Layout Inlineblock  *******************************************
+@mixin layoutInlineBlockGenerall($width) {
+    position: relative;
+    display: inline-block;
+    width: $width;
+}
+@mixin layoutInlineBlock {
+    position: relative;
+    display: inline-block;
+}
+//  3.- Layout Block  ************************************************
+@mixin layoutBlockGenerall($width) {
+    position: relative;
+    display:  block;
+    width: $width;
+}
+@mixin layoutBlock {
+    position: relative;
+    display:  block;
+    width:100%;
+}
+
+//  4.- Layout Flexbox  ***********************************************
+@mixin layoutFlexBoxGenerall($directionFlex, $justifyContent, $alignItem, $wrap, $width) {  // generall
+    position: relative;
+    display: flex;
+    flex-direction: $directionFlex;
+    justify-content: $justifyContent;
+    align-items: $alignItem;
+    flex-wrap: $wrap;
+    width:$width;
+}
+@mixin layoutFlexboxColumCenter {
+    position            : relative;
+    display             : flex;
+    flex-direction      : column;
+    justify-content     : center;
+    align-items         : center;
+    width               : 100%;
+}
+@mixin layoutFlexboxRowCenter {
+    position            : relative;
+    display             : flex;
+    flex-direction      : row;
+    justify-content     : center;
+    align-items         : center;
+    width               : 100%;
+}

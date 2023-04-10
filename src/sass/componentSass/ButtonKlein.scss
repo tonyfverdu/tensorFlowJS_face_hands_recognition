@@ -1,0 +1,30 @@
+@use '../layouts' as l;
+@use '../myvariables' as v;
+@use '../designElement' as d;
+
+
+.button {
+  @include d.buttonTypeNeuMorphismus2 (v.$colorNavy);
+  padding: 4% 8%;
+  margin: 1% auto;
+  transition: all 0.35s ease;
+  cursor: pointer;
+
+  &:hover {
+    background: linear-gradient(315deg, #8f8f8f, #414141);
+    box-shadow: -2px -2px 5px #545454,
+      1px 1px 4px #bababa;
+    font-weight: bolder;
+    color: v.$colorbackgroudMy;
+    transform: scale(0.92);
+  }
+}
+
+.buttonReset {
+  padding: 2% 3%;
+  color: v.$colorRedNeu2;
+
+  &:hover {
+    color: v.$colorPink;
+  }
+}

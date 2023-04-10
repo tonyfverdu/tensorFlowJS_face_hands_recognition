@@ -1,0 +1,91 @@
+@use './myvariables' as v;
+
+$textShadowMorphismusText1: -0.6rem -0.4rem 0.28rem rgb(101, 101, 102);
+
+@mixin containerBigNeumorphismus1 {
+    border-radius       : 24px;
+    border              : 4px solid v.$backgroundColorHellGray;
+    border-left         : 3px solid v.$backgroundColorIni2;
+    border-top          : 3px solid v.$backgroundColorIni2;
+    border-bottom       : 4px solid v.$backgroundColorRowTable;
+    background          : v.$gradientSlice2;
+    box-shadow          :  -12px 12px 24px #8e8e8e,
+                        6px -6px 20px #ffffff;
+}
+
+@mixin containerBigNeumorphismus2 {
+    border-radius       : 18px;
+    border              : 3px solid v.$backgroundColorIni2;
+    border-right        : 3px solid v.$backgroundColorHellGray;
+    border-bottom       : 3px solid v.$backgroundColorHellGray;
+    border-top          : 4px solid v.$backgroundColorHellGray2;
+    background-color    : v.$colorHell;
+    box-shadow: rgba(163, 177, 198, 0.5) -6px 6px 12px 0px, 
+                rgb(255, 255, 255) 6px -6px 12px 0px;
+}
+
+@mixin teclaNeumorphismus1 {
+    border-radius       : 12px;
+    background-color    : rgb(224, 229, 236);
+    box-shadow          : rgba(163, 177, 198, 0.5) 4px 4px 6px 0px, rgb(255, 255, 255) -4px -4px 6px 0px;
+}
+@mixin teclaNeumorphismusGreen {
+    border-radius       : 12px;
+    background-color    : rgb(226, 250, 226);
+    box-shadow          : rgba(145, 198, 149, 0.5) 2px 2px 3px 0px, rgba(159, 255, 137, 0.861) -3px -3px 4px 0px;
+}
+@mixin teclaNeumorphismus1Hover {
+    border-radius       : 12px;
+    background-color    : rgb(128, 131, 134);
+    box-shadow          : rgba(72, 77, 87, 0.5) 6px 6px 8px 3px, rgb(180, 180, 180) -6px -6px 8px 3px;
+}
+/*   ////////////////////////////////////////       */
+@mixin neuMorphismus0 {
+    border-radius: 12px;
+    background: #e0e0e0;
+    box-shadow:  -8px -9px 12px #acacac,
+             8px 9px 12px #ffffff;
+}
+@mixin neuMorphismus1 {
+    border-radius: 22px;
+    background: #e0e0e0;
+    box-shadow:  -11px -11px 17px #acacac,
+             11px 11px 17px #ffffff;
+}
+@mixin neuMorphismus2 {
+    border-radius: 20px;
+    background: linear-gradient(315deg, #cacaca, #f0f0f0);
+    box-shadow:  -15px -15px 29px #aaaaaa,
+             15px 15px 29px #ffffff;
+}
+@mixin neuMorphismus3 {
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow: inset -12px -12px 24px #aaaaaa,
+                inset 12px 12px 24px #ffffff;
+}
+@mixin neuMorphismus4 {
+    border-radius: 6px;
+    background: linear-gradient(315deg, #cacaca, #f0f0f0);
+    box-shadow:  -2px -2px 4px #7d7d7d,
+             2px 2px 4px #ffffff;
+}
+@mixin neuMorphismus5 {
+    border-radius: 12px;
+    background: linear-gradient(315deg, #B8B9BC, #FFFFFF);
+    box-shadow:  -2px -2px 3px #7d7d7d, 2px 2px 3px #ffffff, inset 16.52px 16.52px 28px #B5B6B9, inset -16.52px -16.52px 28px #FFFFFF;
+}
+
+@mixin neuMorphismus6 {
+    border-radius: 6px;
+    background: #e0e0e0;
+    box-shadow: inset 11px 11px 24px #c1c1c1,
+            inset -11px -11px 24px #ffffff;
+}
+
+@mixin neuMorphismus7 {
+    border-radius: 21px;
+    background: #e0e0e0;
+    box-shadow: inset 17px 17px 27px #b8b8b8,
+            inset -17px -17px 27px #ffffff;
+}
